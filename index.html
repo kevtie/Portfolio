@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <title>Portfolio</title>
+
+  </head>
+  <style>
+    table.info, tr.info:nth-child(odd) {
+      background-color: #ffffff
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2
+    }
+    table.menu, td.menu{
+      text-align: center;
+      background-color: #f2f2f2;
+      border-collapse: collapse;
+    }
+    table.talen, th.talen:nth-child(odd){
+      text-align: center;
+      background-color: #ffffff;
+      border-collapse: collapse;
+    }
+    .hidden{
+      color: black; text-decoration: none;
+    }
+    table.info, tr{
+      text-align: center;
+      height: 50px;
+    }
+    table.info, tr, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    td:hover{
+      background-color: #f9f9f9;
+    }
+    body{
+      background-image: url("background.jpg");
+    }
+  </style>
+  <body>
+    <table class="menu" width="100%" height="50px" align="center">
+      <tr>
+        <td class="menu"><a href="#" class="hidden"><div style="height:50px;width:100%"><h2>Home</h2></div></a></td>
+        <td class="menu"><a href="hobby.html" class="hidden"><div style="height:50px;width:100%"><h2>Mijn hobby's</h2></div></a></td>
+        <td class="menu" height="100%"><a href="contact.html" class="hidden"><div style="height:50px;width:100%"><h2>Contact</h2></div></a></td>
+      </tr>
+    </table>
+    <br><br><br>
+    <table class="info" align="center">
+      <tr class="info"><td><b>Naam</b></td><td>Kevin Tiezema</td></tr>
+      <tr class="info"><td><b>Geboortedatum</b></td><td>08-11-1998</td></tr>
+      <tr class="info"><td><b>Woonplaats</b></td><td>Leeuwarden</td></tr>
+      <tr class="info"><td><b>Hobby's</b></td><td><a href="hobby.html#Hardlopen" class="hidden">Hardlopen</a>, <a href="hobby.html#Gamen" class="hidden">Gamen</a></td></tr>
+      <tr class="info"><td><b>Vooropleidingen</b></td><td>VMBO-T, MBO-<br>Applicatie ontwikkeling</td></tr>
+    </table>
+    <br><br><br>
+    <table class="talen" align="center">
+      <tr class="talen"><th class="talen" align="center"><b>Talen die ik ken</b></th></tr>
+      <tr class="talen">
+        <td class="talen">HTML<br><a href="https://nl.wikipedia.org/wiki/HyperText_Markup_Language"><img src="html5.png"></a></td>
+        <td class="talen">CSS<br><a href="https://nl.wikipedia.org/wiki/CSS"><img src="css3.png"></a></td>
+        <td class="talen">JS<br><a href="https://nl.wikipedia.org/wiki/JavaScript"><img src="js.png"></a></td>
+        <td class="talen">C#<br><a href="https://nl.wikipedia.org/wiki/C%E2%99%AF"><img src="csharp.png"></a></td>
+        <td class="talen">PHP<br><a href="https://nl.wikipedia.org/wiki/PHP"><img src="php.png"></a></td>
+        <td class="talen">JAVA<br><a href="https://nl.wikipedia.org/wiki/Java_(programmeertaal)"><img src="java.png"></a></td>
+      </tr>
+    </table>
+  </body>
+</html>
